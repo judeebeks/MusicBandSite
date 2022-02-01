@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 100%;
+}
+
+.text-brown {
+    color: #7b5c1f;
+}
+
+.navbar {
+    box-shadow: 0 0.3rem 0.3rem rgba(250, 242, 242, 0.2);
+}
+
+#warning {
+    margin: 0.3rem;
+    color: rgb(209, 199, 199);
+    font-style: italic;
+}
+
+.sticky-top {
+    position: sticky;
+}
+
+.nav-link,
+.active {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+}
+
+.active,
+.nav-link:hover {
+    color: #7b5c1f !important;
+    border-radius: 10px 10px;
+    border-bottom: 0.3rem solid #7b5c1f;
+}
+
+.nav-link:focus {
+    border-radius: 10px 10px;
+    border-bottom: 0.2rem solid #7b5c1f;
+    transition: 0.18s;
+}
+
+.fa-search,
+.bstn {
+    background: #7b5c1f !important;
+    color: #fff !important;
+}
+
+.bstn:hover,
+.fa-search:hover {
+    background: #7b5c1f !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border: 1px solid #fff;
+}
+
+.fa-bars {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2px;
+}
+
+.fa-bars:focus,
+.navbar-toggler:focus,
+.fa-bars:hover,
+.navbar-toggler:hover {
+    color: #7b5c1f;
+    transition: 0.32s;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+.banner-container {
+    width: 100%;
+    height: 89vh;
+    /* opacity: 0.9; */
+    position: relative;
+    transition: ease-in-out 0.6s;
+}
+
+.banner-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.banner-title {
+    position: relative;
+    color: #fff;
+    top: 45%;
+    text-align: center;
+}
+
+.fixed-container {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 80vh;
+    padding: 1.5rem 0;
+}
+
+.hero-fixed {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(8, 8, 8, 0.3)), url("img/concert.jpg");
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -999;
+}
+
+.hero-fixed .card {
+    top: 10%;
+}
+
+.card-music {
+    width: 100%;
+    margin: 0 !important;
+}
+
+
+/* .card-text {
+    height: 50%;
+} */
+
+.card-adj {
+    width: 30% !important;
+}
+
+@media (max-width: 768px) {
+    .img-set {
+        width: 70%;
+    }
+    .card-adj {
+        width: 65% !important;
+    }
+}
+
+marquee {
+    color: #fff;
+    font-family: cursive;
+}
+
+.video-bg {
+    background-image: linear-gradient( to right, rgba(247, 195, 52, 0.4), rgb(211, 156, 39));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    height: 70%;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border-radius: 5px;
+    border: none;
+}
+
+.card-body {
+    background-color: #ac7d19;
+}
+
+.review-cont {
+    width: 100%;
+    align-items: center;
+}
+
+.review-card {
+    background: none;
+    align-items: center;
+}
+
+.review-card-body {
+    border-radius: 5px !important;
+}
+
+.border-line {
+    border-top: 3px solid #7b5c1f;
+    width: 75%;
+    margin: auto;
+}
+
+.border-lin {
+    border-top: 1px solid #fff;
+    width: 50vh;
+    margin: auto;
+}
+
+.foot-link {
+    list-style: none;
+}
+
+.footer-link a {
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ac7d19;
+}
+
+.footer-link:hover {
+    transform: scale(1.025);
+}
+
+.footer-text {
+    padding-top: 0.5rem;
+    color: #7b5c1f !important;
+    font-weight: 600 !important;
+}

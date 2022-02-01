@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-BAND MUSIC</title>
+    <link rel="shortcut icon" href="img/logosh.png" />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="home.js" defer></script>
+  </head>
+  <body style="background: #000">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-black">
+      <div class="container">
+        <a class="navbar-brand py-3" href="#"
+          ><img src="img/logo.png" height="30" alt="LOGO"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link mx-2 py-3 active"
+                aria-current="page"
+                href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 py-4 py-md-3" href="#"> Music </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 py-4 py-md-3" href="#"> Video </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 py-4 py-md-3" href="about.html">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 py-4 py-md-3" href="presskit.html">
+                PressKit
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 py-4 py-md-3" href="#"> Shop </a>
+            </li>
+          </ul>
+          <form class="d-flex mx-2 py-3" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search Z-band's Top Beats"
+              aria-label="Search"
+            />
+            <button class="btn bstn" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BANNER SECTION -->
+    <div
+      class="banner-container mb-5"
+      id="banner-container"
+      onmouseover="opacityReduce()"
+      onmouseout="opacityIncrease()"
+    >
+      <img src="img/mixer.jpg" class="banner-img" id="banner-img" alt="" />
+      <span class="banner-title" id="banner-title"
+        ><h1 class="fw-bolder" id="banner-text">Z-BAND RESURRECTION</h1>
+        <h3 style="font-family: cursive">2021 - 2022</h3>
+      </span>
+    </div>
+
+    <!-- MUSIC SECTION -->
+    <div class="fixed-container my-5">
+      <div class="hero-fixed">
+        <div class="card card-adj m-auto">
+          <img src="img/show.png" class="img-fluid" alt="" />
+          <div class="card-body">
+            <span class="card-text">
+              <audio src="audio/dream.mp3" controls class="card-music">
+                <p>This browser does not support our audio format.</p>
+              </audio>
+              <marquee behavior="" direction="right to left"
+                >Dream- Amazing Dragons ft Z-Band</marquee
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MUSIC VIDEO SECTION -->
+    <div class="video-bg text-center">
+      <video controls poster="img/mixer.jpg">
+        <source src="video/video.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!-- REVIEW SECTION -->
+
+    <div class="container px-5 my-5">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-2 text-brown text-center">FAN REVIEWS</h1>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 pb-4 pb-md-0">
+          <div class="card border-0 review-card">
+            <img
+              src="img/lady.png"
+              class="card-img-top rounded-circle w-75 img-fluid my-4"
+              alt="..."
+            />
+            <div class="card-body review-card-body text-white">
+              <h4 class="card-title fw-border-light">Jane Doe</h4>
+              <p class="card-text lead">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                ipsum at ad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-4 pb-md-0">
+          <div class="card border-0 review-card">
+            <img
+              src="img/lady.png"
+              class="card-img-top rounded-circle w-75 img-fluid my-4"
+              alt="..."
+            />
+            <div class="card-body review-card-body text-white">
+              <h4 class="card-title fw-border-light">Jane Doe</h4>
+              <p class="card-text lead">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                ipsum at ad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-4 pb-md-0">
+          <div class="card border-0 review-card">
+            <img
+              src="img/lady.png"
+              class="card-img-top rounded-circle w-75 img-fluid my-4"
+              alt="..."
+            />
+            <div class="card-body review-card-body text-white">
+              <h4 class="card-title fw-border-light">Jane Doe</h4>
+              <p class="card-text lead">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                ipsum at ad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer class="pt-5 pb-2">
+      <div class="border-line mb-5"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <h5 class="text-white">Quick Links</h5>
+            <ul class="foot-link pl-0 ml-0 pb-4 pb-lg-0">
+              <li class="footer-link">
+                <a href="#">Home</a>
+              </li>
+              <li class="footer-link">
+                <a href="#">Music </a>
+              </li>
+              <li class="footer-link">
+                <a href="#">Video </a>
+              </li>
+              <li class="footer-link">
+                <a href="about.html">Contact </a>
+              </li>
+              <li class="footer-link">
+                <a href="presskit.html">PressKit </a>
+              </li>
+              <li class="footer-link">
+                <a href="#">Shop </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-5">
+            <h5 class="text-white">For Promotions and Updates</h5>
+            <p class="text-brown">
+              Want to recieve updates and promotions tips?
+            </p>
+            <form class="d-flex" id="form" role="search">
+              <input
+                class="form-control me-2"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                aria-label="Search"
+                id="usermail"
+              />
+              <button
+                class="btn bstn text-uppercase text-white"
+                type="submit"
+                id="submitmail"
+                onclick="submitmailonclick(event)"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <h5 class="text-white">Social Links</h5>
+          <ul class="foot-link d-flex justify-content-center">
+            <li class="footer-link mx-3">
+              <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            </li>
+            <li class="footer-link mx-3">
+              <a href="#"><i class="fab fa-linkedin fa-2x"></i> </a>
+            </li>
+            <li class="footer-link mx-3">
+              <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+            <li class="footer-link mx-3">
+              <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="border-lin"></div>
+          <h4 class="text-center footer-text">Z-band Music Cooporations</h4>
+          <small class="text-center text-brown">&copy; 2022</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
