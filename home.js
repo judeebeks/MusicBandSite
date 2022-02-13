@@ -35,13 +35,11 @@ const submitmailonclick = function(e) {
     let yahooMailCheck = userMail.value.includes("@yahoo.com");
 
     if (gmailCheck || yahooMailCheck) {
-        // warning.innerText = "";
 
         recievedMail.push(userMails.userMail);
         localStorage.setItem("UserMail", JSON.stringify(recievedMail));
         window.location.assign("/");
     } else {
-        //there will be a glitch or after effect in this code
         let warn = setInterval(() => {
             warning.innerText =
                 "Please input a valid Email; Email must contain @gmail.com or @yahoo.com";
