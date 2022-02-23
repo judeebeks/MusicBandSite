@@ -139,12 +139,16 @@ h3 {
 }
 
 .hero-fixed .card {
-    top: 10%;
+    top: 8%;
 }
 
 .card-music {
     width: 100%;
     margin: 0 !important;
+}
+
+.music-cover {
+    width: 100%;
 }
 
 
@@ -162,6 +166,16 @@ h3 {
     }
     .card-adj {
         width: 65% !important;
+    }
+
+    .hero-fixed .card {
+        top: 7%;
+    }
+
+    .fixed-container {
+        height: 70vh;
+    padding: 0rem 0;
+
     }
 }
 
